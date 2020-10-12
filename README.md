@@ -34,20 +34,32 @@ git config --global user.name "<username>"
 ```shell
 git config --global user.email "<useremailaddress>"
 ```
-
-    Check if the .gitconfig file is available at home location of the user for which git is installed
+Check if the .gitconfig file is available at home location of the user for which git is installed
 ```shell
 cat ~/.gitconfig
 ```
-    If you don't have .gitocnfig file that means your git config is not set up
+If you don't have .gitocnfig file that means your git config is not set up
 
 4. What is Repository
+
 _Repository is a place where all code is hosted remotely._
-*A Git repository is a virtual storage of your project. It allows you to save versions of your code, which you can access when needed.*
+> A Git repository is a virtual storage of your project. It allows you to save versions of your code, which you can access when needed.
 
-Create a new Repsitory using a [New Repository option](https://github.com/new) 
+> Create a new Repsitory using a [New Repository option](https://github.com/new) 
 
-+ git clone: git clone is a Git command line utility which is used to target an existing repository and create a clone, or copy of the target repository on your local system.
-_There are way to get repo on your local system using git clone_ 
-..1. https
-..2. ssh
+> git clone: git clone is a Git command line utility which is used to target an existing repository and create a clone, or copy of the target repository on your local system.
+> When you connect to a GitHub repository from Git, you'll need to authenticate with GitHub using either HTTPS or SSH.
+<dl>
+<dt>There are way to get repo on your local system using git clone</dt>
+<dd>1. https</dd>
+<dd>2. ssh </dd>
+
+<dt>https</dt>
+<dd>The https:// clone URLs are available on all repositories, public and private. These URLs work everywhere--even if you are behind a firewall or proxy.</dd>
+> An HTTPS connection allows credential.helper to cache your password.
+
+<dt>ssh</dt>
+<dd>In case of SSH Keys are used for authentication.If you clone with SSH, you must generate SSH keys on each computer you use to push or pull from GitHub.</dd>
+> Please check for more details regarding SSH [Connecting to GitHub with SSH](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh)
+</dl>
+
