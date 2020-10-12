@@ -35,11 +35,11 @@ git config --global user.name "<username>"
 git config --global user.email "<useremailaddress>"
 ```
 
-..._Check if the .gitconfig file is available at home location of the user for which git is installed_
+...Check if the .gitconfig file is available at home location of the user for which git is installed
 ```shell
 cat ~/.gitconfig
 ```
 
-...*If you don't have .gitocnfig file that means your git config is not set up*
+...If you don't have .gitocnfig file that means your git config is not set up
 
 
