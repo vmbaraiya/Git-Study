@@ -56,10 +56,10 @@ _Repository is a place where all code is hosted remotely._
 
 <dt>https</dt>
 <dd>The https:// clone URLs are available on all repositories, public and private. These URLs work everywhere--even if you are behind a firewall or proxy.</dd>
-> An HTTPS connection allows credential.helper to cache your password.
++ An HTTPS connection allows credential.helper to cache your password.
 
 <dt>ssh</dt>
 <dd>In case of SSH Keys are used for authentication.If you clone with SSH, you must generate SSH keys on each computer you use to push or pull from GitHub.</dd>
-> Please check for more details regarding SSH [Connecting to GitHub with SSH](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh)
++  Please check for more details regarding SSH [Connecting to GitHub with SSH](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh)
 </dl>
 
