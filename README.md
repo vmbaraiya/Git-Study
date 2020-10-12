@@ -35,12 +35,19 @@ git config --global user.name "<username>"
 git config --global user.email "<useremailaddress>"
 ```
 
-+ Check if the .gitconfig file is available at home location of the user for which git is installed
+    Check if the .gitconfig file is available at home location of the user for which git is installed
 ```shell
 cat ~/.gitconfig
 ```
+    If you don't have .gitocnfig file that means your git config is not set up
 
-+ If you don't have .gitocnfig file that means your git config is not set up
-.. CHeck
+4. What is Repository
+_Repository is a place where all code is hosted remotely._
+*A Git repository is a virtual storage of your project. It allows you to save versions of your code, which you can access when needed.*
 
+Create a new Repsitory using a [New Repository option](https://github.com/new) 
 
++ git clone: git clone is a Git command line utility which is used to target an existing repository and create a clone, or copy of the target repository on your local system.
+_There are way to get repo on your local system using git clone_ 
+..1. https
+..2. ssh
